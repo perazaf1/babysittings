@@ -1,0 +1,1 @@
+const hello = document.getElementById("intro")
