@@ -226,7 +226,7 @@ a:hover {
   }
 }
 
-.button {
+/* .button {
   background-color: #0082e6;
   border: none;
   color: white;
@@ -238,6 +238,33 @@ a:hover {
   margin: 50px 200px 50px 200px;
   cursor: pointer;
   border-radius: 5px;
+} */
+.button {
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+}
+.button {
+  margin: 10px;
+  padding: 20px 34px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 100% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 20px;
+  display: block;
+  margin: 50px 200px 50px 200px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 #formContainer h1 {
