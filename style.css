@@ -83,6 +83,7 @@ a:hover {
   .checkbtn {
     display: block;
   }
+
   ul {
     position: fixed;
     width: 100%;
@@ -93,17 +94,20 @@ a:hover {
     text-align: center;
     transition: all 0.5s;
   }
+
   nav ul li {
     display: block;
     font-size: 20px;
     margin: 50px 0;
     line-height: 30px;
   }
+
   a:hover,
   a.active {
     background: none;
     color: #0082e6;
   }
+
   #check:checked ~ ul {
     left: 0;
   }
